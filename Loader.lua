@@ -7,9 +7,9 @@
 -- |  _  // _ \| '_ \| |/ _ \ \/ /   / /| | | || | '_ \
 -- | | \ \ (_) | |_) | | (_) >  <   / /_| |_| || | (_) |
 -- |_|  \_\___/|_.__/|_|\___/_/\_\ |____|\___/ |_|\___/
---                                                      
+-- ROBLOX 2016M SIMULATION 
 --              Script made by Rezy                    
---      Old cursor look on YT
+--     Have Fun Dont Copy!
 --This took long But now its done :D
 --Disabling new TopBar.
 game.CoreGui.TopBarApp.Enabled = false
