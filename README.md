@@ -1,9 +1,9 @@
 # RBX2016
 
-Finally working
+Bro lets go its fixeddddd
 
-Emulation Mid 2016 UI and Graphics 
+Early 2017 ui with old graphics made in lua. INSPIRED BY SCOTDOTWTF https://github.com/scotdotwtf/Final16
 
-NOTE: WILL NOT WORK ON MOBILE PC ONLY
+NOTE: Fixed and made it work on codex wooo!
 
 Your 2016 Fix
