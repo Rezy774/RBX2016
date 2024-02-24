@@ -7,8 +7,8 @@
 -- |  _  // _ \| '_ \| |/ _ \ \/ /   / /| | | || | '_ \
 -- | | \ \ (_) | |_) | | (_) >  <   / /_| |_| || | (_) |
 -- |_|  \_\___/|_.__/|_|\___/_/\_\ |____|\___/ |_|\___/
--- ROBLOX 2016M SIMULATION Upate As Of 2/24/23 :anger: 
---              Script made by Rezy                    
+-- ROBLOX 2016M SIMULATION Upate As Of 2/24/24 :anger: 
+--              dam bro i made a mistake is fix now                   
 --     ROBLOX WHY U MAKE IT SO HARD TO CODEEEEEEEEEEEE
 --LIKE BRUH YOU SUCK ROBLOX 
 --FINALYYYYYYYY ITS GONEEEEE
