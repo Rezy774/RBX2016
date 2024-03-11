@@ -1,4 +1,5 @@
-
+--[[
+	lel
 
 
 --  _____       _     _             ___   ___  __   __  
@@ -7,17 +8,17 @@
 -- |  _  // _ \| '_ \| |/ _ \ \/ /   / /| | | || | '_ \
 -- | | \ \ (_) | |_) | | (_) >  <   / /_| |_| || | (_) |
 -- |_|  \_\___/|_.__/|_|\___/_/\_\ |____|\___/ |_|\___/
--- ROBLOX 2016M SIMULATION Upate As Of 2/24/24 :anger: 
---              dam bro i made a mistake is fix now                   
---     ROBLOX WHY U MAKE IT SO HARD TO CODEEEEEEEEEEEE
---LIKE BRUH YOU SUCK ROBLOX 
---FINALYYYYYYYY ITS GONEEEEE
+--                                                      
+--              Script made by Rezy                    
+--      update as of 3/10/24 :anger:
+--From the uploadder:i only disabled the new topbar,have fun!
+--Disabling new TopBar.
 game.CoreGui.TopBarApp.Enabled = false
---GET THE HECK OUT OF HERE YOU NEW TOPBAR I HATE U SM FOR WHAT YOU DID
+--Loading Old Roblox TopBar.
 if game:IsLoaded() ~= true then
    game.Loaded:Wait()
 end
---LOL DISABLE FILTERING YAAAAAS
+--Needed for nostalgia, Filtering Disabled spoof
 local Workspace = game.Workspace
 local old
 old = hookmetamethod(game, "__index", newcclosure(function(Self, ...)
@@ -77,6 +78,7 @@ ExistAndDelete("RobloxPromptGui")
 ExistAndDelete("RobloxLoadingGui")
 ExistAndDelete("PlayerList")
 ExistAndDelete("RobloxNetworkPauseNotification")
+ExistAndDelete("PurchasePrompt")
 ExistAndDelete("HeadsetDisconnectedDialog")
 ExistAndDelete("ThemeProvider")
 ExistAndDelete("BubbleChat")
