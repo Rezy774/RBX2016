@@ -1,6 +1,3 @@
---[[
-	lel
-
 
 --  _____       _     _             ___   ___  __   __  
 -- |  __ \     | |   | |           |__ \ / _ \/_ | / /  
@@ -10,8 +7,8 @@
 -- |_|  \_\___/|_.__/|_|\___/_/\_\ |____|\___/ |_|\___/
 --                                                      
 --              Script made by Rezy                    
---      update as of 3/10/24 :anger:
---From the uploadder:i only disabled the new topbar,have fun!
+--      C000000000L
+--EEEEEEHELLO!
 --Disabling new TopBar.
 game.CoreGui.TopBarApp.Enabled = false
 --Loading Old Roblox TopBar.
@@ -78,10 +75,8 @@ ExistAndDelete("RobloxPromptGui")
 ExistAndDelete("RobloxLoadingGui")
 ExistAndDelete("PlayerList")
 ExistAndDelete("RobloxNetworkPauseNotification")
-ExistAndDelete("PurchasePrompt")
 ExistAndDelete("HeadsetDisconnectedDialog")
 ExistAndDelete("ThemeProvider")
-ExistAndDelete("BubbleChat")
 
 --Adios all CoreScript!!!
 for i,v in pairs(game:GetDescendants()) do
@@ -89,30 +84,6 @@ for i,v in pairs(game:GetDescendants()) do
        v:Destroy()
    end
 end
-
-
---Chat handler (soo people can see your messages) (YOU CAN EDIT THIS IF THE GAME YOUR PLAYING HAVE A CUSTOM CHAT)
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
-   if game:GetService("ReplicatedStorage"):FindFirstChild("DefaultChatSystemChatEvents") ~= nil then
-    if game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents:FindFirstChild("SayMessageRequest") ~= nil then
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents:FindFirstChild("SayMessageRequest"):FireServer(msg, "All")
-    end
-   end
-end)
-
---Delete Chat if found
-if game.Players.LocalPlayer:FindFirstChild("PlayerGui") == nil then
-   game.Players.LocalPlayer:WaitForChild("PlayerGui")
-end
-
-if game.Players.LocalPlayer.PlayerGui:FindFirstChild("Chat") == nil then
-   game.Players.LocalPlayer.PlayerGui:WaitForChild("Chat"):Destroy()
-else
-   game.Players.LocalPlayer.PlayerGui["Chat"]:Destroy()
-end
-
-
-
 --The Health bar always on
 game.Players.PlayerAdded:Connect(function(plr)
    task.spawn(function()
